@@ -1,0 +1,8 @@
+Host github.com
+	IdentityFile ~/.ssh/github_morus.rsa
+Host gitlab.com
+	IdentityFile ~/.ssh/gitlab_rsa
+Match User ec2-user
+	IdentityFile ~/.ssh/ckb-sandbox.pem
+Host *
+	IdentitiesOnly=yes

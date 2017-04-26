@@ -1,0 +1,5 @@
+
+CXXFLAGS=-O3 -Wno-unused-variable -Wno-unused-function -Wno-unused-local-typedefs -march=native
+CC=clang
+CXX=clang++ -ftemplate-depth-256
+

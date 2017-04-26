@@ -1,0 +1,35 @@
+[user]
+	name = Chris Black
+	email = chris@ckblack.org
+
+[diff "zip"]
+	textconv = unzip -c -a
+
+[diff "xmlzip"]
+	textconv = /usr/local/bin/xmlzip.sh
+
+[diff "showxls"]
+	command = /usr/local/bin/gitxlscmp.sh
+
+[diff "csv"]
+	wordRegex = [^,\n]+[,\n]|[,]
+
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[push]
+	default = simple
+[diff "daff-csv"]
+	command = daff.py diff --color --git
+[merge "daff-csv"]
+	name = daff tabular merge
+	driver = daff.py merge --output %A %O $A %B
+[color "diff"]
+	whitespace = red reverse
+[filter "lfs"]
+	smudge = git-lfs smudge %f
+	required = true
+	clean = git-lfs clean %f
+[diff "image"]
+	command = /usr/local/bin/git-imgdiff.sh
