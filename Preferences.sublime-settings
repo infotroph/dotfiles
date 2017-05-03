@@ -1,0 +1,19 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Dawn.tmTheme",
+	"font_face": "Triplicate T4c",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"margin": 1,
+	"paths":
+	{
+		"osx":
+		[
+			"/usr/bin"
+		]
+	},
+	"show_line_endings": true,
+	"word_wrap": true
+}

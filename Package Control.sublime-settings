@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AlignTab",
+		"FileDiffs",
+		"Fix Mac Path",
+		"Git",
+		"GitGutter",
+		"Indent XML",
+		"JSLint",
+		"JSONLint",
+		"LaTeX Word Count",
+		"Markdown Preview",
+		"Package Control",
+		"Pretty JSON",
+		"Stan",
+		"sublimelint",
+		"SublimeLinter-xmllint",
+		"SublimeREPL",
+		"TrailingSpaces"
+	]
+}
