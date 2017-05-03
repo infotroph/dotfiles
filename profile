@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/usr/local/pgsql/bin:/Library/TeX/texbin:/usr/local/sbin:/Library/Frameworks/GDAL.framework/Programs:$PATH
+export PATH=/usr/local/bin:/Library/TeX/texbin:/usr/local/sbin:/Library/Frameworks/GDAL.framework/Programs:$PATH
 export MANPATH=/usr/local/Cellar/:/usr/local/share/man/:/usr/local/mysql/man/:/usr/local/pgsql/man/:/usr/local/man:/usr/local/git/share/man/:$MANPATH
 export TEXINPUTS=$TEXINPUTS:~/tex/
 
@@ -27,3 +27,4 @@ alias gits='git status'
 alias gdwd='git diff -U0 --word-diff'
 alias gitallgraph='git log --all --oneline --decorate --graph'
 
+tabs -4
