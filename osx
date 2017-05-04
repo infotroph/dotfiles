@@ -58,4 +58,4 @@ defaults write com.tapbots.TweetbotMac OpenURLsDirectly -bool TRUE
 
 ## Sublime Text
 
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
