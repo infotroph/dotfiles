@@ -1,5 +1,5 @@
 Host github.com
-	IdentityFile ~/.ssh/github_morus.rsa
+	IdentityFile ~/.ssh/%h_%l.rsa
 Host gitlab.com
 	IdentityFile ~/.ssh/gitlab_rsa
 Match User ec2-user
