@@ -1,7 +1,7 @@
 Host github.com
 	IdentityFile ~/.ssh/%h_%l.rsa
 Host gitlab.com
-	IdentityFile ~/.ssh/gitlab_rsa
+	IdentityFile ~/.ssh/%h_%l.rsa
 Match User ec2-user
 	IdentityFile ~/.ssh/ckb-sandbox.pem
 Host *
