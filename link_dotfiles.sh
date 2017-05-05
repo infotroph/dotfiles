@@ -5,7 +5,7 @@
 
 if [[ $OSTYPE == darwin* ]]; then ./osx; fi
 
-mkdir -p ~/.config/git .R .ssh
+mkdir -p ~/.config/git ~/.R ~/.ssh
 
 ln -si "$PWD"/config/git/attributes ~/.config/git/attributes
 ln -si "$PWD"/config/git/ignore ~/.config/git/ignore
