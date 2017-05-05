@@ -4,6 +4,7 @@
 # Back up first, no warranties, etc etc
 
 if [[ $OSTYPE == darwin* ]]; then ./osx; fi
+chsh -s /bin/zsh
 
 mkdir -p ~/.config/git ~/.R ~/.ssh
 
