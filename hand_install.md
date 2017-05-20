@@ -26,6 +26,7 @@ brew install \
 	imagemagick \
 	postgresql \
 	python3 \
+	reattach-to-user-namespace \
 	tmux \
 	vtk \
 	wget
