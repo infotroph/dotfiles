@@ -3,7 +3,7 @@
 # Don't run this unless you're ready to overwrite a lot of configuration files!
 # Back up first, no warranties, etc etc
 
-if [[ $OSTYPE == darwin* ]]; then ./osx; fi
+if [[ $OSTYPE == darwin* ]]; then ./osx.sh; fi
 chsh -s /bin/zsh
 
 mkdir -p ~/.config/git ~/.R ~/.ssh
