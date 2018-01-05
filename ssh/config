@@ -1,3 +1,5 @@
+NoHostAuthenticationForLocalhost yes
+
 Host github.com
 	IdentityFile ~/.ssh/%h_%l.rsa
 Host gitlab.com
