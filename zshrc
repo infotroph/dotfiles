@@ -5,8 +5,6 @@ autoload -U compinit; compinit
 sd () { echo `date "+%s"`, $1 >> ~/spamdeletion.txt }
 tc() { python -c "print '$1'.title()" }
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
 timer(){
 	sleep "$1"
 	echo -n "\a\a\a"
