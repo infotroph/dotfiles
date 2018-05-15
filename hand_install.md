@@ -46,7 +46,7 @@ pip3 install --upgrade pip setuptools wheel
 Now add new packages:
 
 ```
-pip3 install awscli csvkit
+pip3 install awscli csvkit scikit-image
 ```
 
 ## Install R
