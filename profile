@@ -1,4 +1,4 @@
-export PATH=/Library/TeX/texbin:/usr/local/sbin:/Library/Frameworks/GDAL.framework/Programs:$PATH
+export PATH=/Library/TeX/texbin:/usr/local/sbin:$PATH
 export MANPATH=/usr/local/Cellar/:/usr/local/share/man/:/usr/local/mysql/man/:/usr/local/pgsql/man/:/usr/local/man:/usr/local/git/share/man/:$MANPATH
 export TEXINPUTS=$TEXINPUTS:~/tex/
 
