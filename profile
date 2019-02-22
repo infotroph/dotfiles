@@ -8,8 +8,8 @@ alias mtun='ssh -L12587:localhost:25 bodger.org'
 alias lgr='ssh -i ~/.ssh/lgr_id_rsa lgr@black-spectrometer.igb.illinois.edu'
 alias biocl='ssh -i ~/.ssh/biocl_rsa black11@biocluster.igb.illinois.edu'
 alias awsdc='ssh -i ~/.ssh/ckb-sandbox.pem ec2-user@ec2-54-89-37-23.compute-1.amazonaws.com'
-alias acii='ssh -i ~/.ssh/aci.ics.psu.edu_morus.local.rsa ckb23@aci-i.aci.ics.psu.edu'
-alias acib='ssh -i ~/.ssh/aci.ics.psu.edu_morus.local.rsa.pub ckb23@aci-b.aci.ics.psu.edu'
+alias acii='ssh -i ~/.ssh/aci.ics.psu.edu.rsa ckb23@aci-i.aci.ics.psu.edu'
+alias acib='ssh -i ~/.ssh/aci.ics.psu.edu.rsa.pub ckb23@aci-b.aci.ics.psu.edu'
 
 alias ls='ls -G'
 alias cp='cp -i'
@@ -28,5 +28,6 @@ alias pwc='pbpaste|wc'
 alias gits='git status'
 alias gdwd='git diff -U0 --word-diff'
 alias gitallgraph='git log --all --oneline --decorate --graph'
+alias gitinit='git init && git checkout -b latest'
 
 tabs -4
