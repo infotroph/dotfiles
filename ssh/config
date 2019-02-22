@@ -6,6 +6,9 @@ Host gitlab.com
 	IdentityFile ~/.ssh/%h_%l.rsa
 Host bitbucket.org
 	IdentityFile ~/.ssh/%h_%l.rsa
+Host *.aci.ics.psu.edu
+	User ckb23
+	IdentityFile ~/.ssh/aci.ics.psu.edu.rsa
 Match User ec2-user
 	IdentityFile ~/.ssh/ckb-sandbox.pem
 Host *
