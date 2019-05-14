@@ -52,6 +52,9 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 # Don't hide URLs
 defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
 
+# Don't open """safe""" filetypes after download
+defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
+
 ## Tweetbot
 
 # Skip sloooow t.co redirection
