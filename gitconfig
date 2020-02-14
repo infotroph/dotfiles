@@ -1,6 +1,7 @@
 [user]
 	name = Chris Black
 	email = chris@ckblack.org
+	signingkey = 32B4396C02600B29
 
 [diff "zip"]
 	textconv = unzip -c -a
