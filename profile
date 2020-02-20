@@ -1,6 +1,7 @@
 export PATH=/Library/TeX/texbin:/usr/local/sbin:$PATH
 export MANPATH=/usr/local/Cellar/:/usr/local/share/man/:/usr/local/mysql/man/:/usr/local/pgsql/man/:/usr/local/man:/usr/local/git/share/man/:$MANPATH
 export TEXINPUTS=$TEXINPUTS:~/tex/
+export GPG_TTY=`tty`
 
 alias bodg='ssh chrisb@bodger.org'
 alias delar='ssh -i ~/.ssh/delarhizo_id_dsa black11@128.174.126.168'
