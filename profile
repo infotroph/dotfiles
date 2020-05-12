@@ -25,6 +25,7 @@ alias mktiff='nice -n +1 dcrawg4 -q 3 -4 -T'
 alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport'
 alias fstrip='pbpaste | pbcopy'
 alias pwc='pbpaste|wc'
+alias diffchars='git diff --no-index --word-diff=color --word-diff-regex=.'
 
 alias gits='git status'
 alias gdwd='git diff -U0 --word-diff'
