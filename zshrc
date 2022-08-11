@@ -36,4 +36,19 @@ lgrpeek(){
         && echo $f'
 }
 
+# Register a file extension with qlstephen,
+# so that quicklook will display all files using it as plaintext
+# usage: qladd path/to/file.ext
+# Adapted from https://github.com/whomwah/qlstephen/issues/87#issuecomment-773664993
+qladd() {
+    type=$(
+        mdls -name kMDItemContentType $1 \
+        | sed -n 's/^kMDItemContentType = \"\(.*\)\"$/\1/p'
+    )
+	plutil -insert \
+        CFBundleDocumentTypes.0.LSItemContentTypes.0 \
+        -string $type \
+        ~/Library/QuickLook/QLStephen.qlgenerator/Contents/Info.plist
+	qlmanage -r > /dev/null
+}
 
